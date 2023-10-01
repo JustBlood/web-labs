@@ -1,0 +1,103 @@
+/* 1 задание */
+.task-1 li:hover + li + li {
+    background-color: green;
+    color:white;
+}
+.task-1 li:hover {
+    background-color: red;
+    color: white;
+}
+/* 2 задание */
+.task-2 li:hover ~ li:not(:last-child){
+    background-color: green;
+    color:white;
+}
+.task-2 li:hover{
+    background-color: red;
+    color:white;
+}
+/* 3 задание */
+div.hello p.test{ 
+	color: crimson;
+}
+/* 4 задание */
+.task-4 p.test, .task-4 .hello{
+    color: darkorange;
+    font-weight: bold;
+}
+/* 5 задание */
+p>a, a.test{
+	color: yellow;
+	background-color: black;
+}
+/* 6 задание */
+#test b~i{
+	background-color: indianred;
+}
+/* 7 задание */
+ul li > b {
+    color: red;
+}
+/* 8 задание */
+h2.header {
+	color: red;
+}
+h3.header {
+	color:blue;
+}
+/* 9 */
+#test h2~p{
+	color:green;
+}
+
+.task-10 p>* i{
+	color: darkgoldenrod;
+}
+
+p[title*="Привет"], p[title*="привет"]{
+	font-weight: bold;
+	color: deeppink;
+}
+
+/*Стили для оформления работы, не относятся к заданиям*/
+td, th{
+    border: 2px solid #561ad9; 
+    max-width: 200px;
+}
+td:first-child{
+    text-align: center;
+    width: 10px;
+}
+
+/*Стили для заданий*/
+.task-list{
+    padding-right: 10px;
+}
+.task-list li{
+    border: 1px solid blue;
+    margin: 5px ;
+    list-style-position: inside;
+    padding: 2px;
+    padding-right: 20px;
+}
+ol.task-list {
+    padding-left: 5px;
+}
+
+.task-1 li:hover + li+ li{
+    background-color: green;
+    color:white;
+}
+.task-1 li:hover{
+    background-color: red;
+    color:white;
+}
+
+.task-2 li:hover ~ li:not(:last-child){
+    background-color: green;
+    color:white;
+}
+.task-2 li:hover{
+    background-color: red;
+    color:white;
+}
