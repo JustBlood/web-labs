@@ -45,15 +45,15 @@ h2.header {
 h3.header {
 	color:blue;
 }
-/* 9 */
+/* 9 задание */
 #test h2~p{
 	color:green;
 }
-
+/* 10 задание */
 .task-10 p>* i{
 	color: darkgoldenrod;
 }
-
+/* 11 задание */
 p[title*="Привет"], p[title*="привет"]{
 	font-weight: bold;
 	color: deeppink;
